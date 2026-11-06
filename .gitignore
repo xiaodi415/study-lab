@@ -1,0 +1,41 @@
+# ===== .NET 编译产物 =====
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.pdb
+
+# ===== Visual Studio =====
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===== 测试与覆盖率 =====
+TestResults/
+[Cc]overage*/
+*.trx
+
+# ===== 本地数据库（项目里不要提交数据文件）=====
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+
+# ===== 编辑器 =====
+.vscode/
+.idea/
+*.swp
+
+# ===== 系统文件 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 日志 =====
+*.log
+logs/
